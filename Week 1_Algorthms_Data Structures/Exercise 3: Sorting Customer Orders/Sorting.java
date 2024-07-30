@@ -17,7 +17,7 @@ public class Sorting {
         if (low < high) {
             int pi = partition(orders, low, high);
 
-            quickSort(orders, low, pi - 1);  // Recursively sort elements before partition
+            quickSort(orders, low, pi - 1);   // Recursively sort elements before partition
             quickSort(orders, pi + 1, high); // Recursively sort elements after partition
         }
     }
