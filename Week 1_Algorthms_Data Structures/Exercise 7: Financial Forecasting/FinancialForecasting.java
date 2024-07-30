@@ -2,7 +2,7 @@ public class FinancialForecasting {
 
     // Recursive method to calculate future value
     public static double calculateFutureValue(double presentValue, double growthRate, int years) {
-        // Base case: no more years left to apply the growth rate
+        // Base case: No more years left to apply the growth rate
         if (years == 0) {
             return presentValue;
         }
